@@ -1,0 +1,10 @@
+import React from 'react';
+import { SvgIcon, ISvgProps } from '@muya-ui/theme-light';
+
+export const KuaidaBiaoqianguanliIcon = React.forwardRef<SVGSVGElement, ISvgProps>((props, ref) => (
+  <SvgIcon ref={ref} viewBox="0 0 1024 1024" {...props}>
+    <path d="M75.832889 132.721778h872.334222c10.467556 0 18.944 8.533333 18.944 19.000889v720.554666c0 10.467556-8.533333 19.000889-18.944 19.000889H75.832889A18.944 18.944 0 0 1 56.888889 872.277333V151.722667c0-10.467556 8.533333-19.000889 18.944-19.000889zM151.722667 227.555556v568.888888h720.554666V227.555556H151.722667z m94.776889 113.777777h417.223111v94.833778H246.499556V341.333333z m0 170.666667H512v94.833778H246.499556V512z"   />
+  </SvgIcon>
+));
+
+export default KuaidaBiaoqianguanliIcon;

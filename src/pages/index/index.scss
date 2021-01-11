@@ -1,0 +1,71 @@
+.my-homewok {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    .content-left {
+        flex:1;
+        background-color: antiquewhite;
+        padding: 20px;
+    }
+    .content-right {
+        flex:1;
+        background-color: aliceblue;
+
+        .workList-content {
+            padding: 20px;
+
+            .workList-row {
+                display: flex;
+                flex-direction: column;
+
+                .workList-item {
+                    border: 1px solid rgba(174,178,183,1);
+                    border-radius: 6px;
+                    width: 110px;
+                    height: 30px;
+                    margin: 20px;
+                    text-align: center;
+                    position: relative;
+
+                    .anticon-arrow-right {
+                        position: absolute;
+                        right: -24px;
+                        top: 6px;
+                    
+                    }
+
+                    .anticon-right {
+                        position: absolute;
+                        right: -24px;
+                        top: 44px;
+                    
+                    }
+
+                    .anticon-arrow-left {
+                        position: absolute;
+                        left: -24px;
+                        top: 6px;
+                    
+                    }
+
+                    .anticon-left {
+                        position: absolute;
+                        left: -24px;
+                        top: 44px;
+                    }
+                }
+
+                .workList-row-odd{
+                    display: flex;
+                    justify-content: flex-start
+                }
+
+                .workList-row-dual{
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+
+}

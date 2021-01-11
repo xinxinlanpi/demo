@@ -1,0 +1,10 @@
+import React from 'react';
+import { SvgIcon, ISvgProps } from '@muya-ui/theme-light';
+
+export const FeedbackInfoIcon = React.forwardRef<SVGSVGElement, ISvgProps>((props, ref) => (
+  <SvgIcon ref={ref} viewBox="0 0 1024 1024" {...props}>
+    <path d="M512 0c282.773333 0 512 229.226667 512 512S794.773333 1024 512 1024 0 794.773333 0 512 229.226667 0 512 0z m0 106.666667c-223.861333 0-405.333333 181.472-405.333333 405.333333s181.472 405.333333 405.333333 405.333333 405.333333-181.472 405.333333-405.333333-181.472-405.333333-405.333333-405.333333z m53.333333 320v341.333333H458.666667V426.666667h106.666666z m0-170.666667v106.666667H458.666667V256h106.666666z"   />
+  </SvgIcon>
+));
+
+export default FeedbackInfoIcon;

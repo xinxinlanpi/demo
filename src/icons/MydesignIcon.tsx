@@ -1,0 +1,10 @@
+import React from 'react';
+import { SvgIcon, ISvgProps } from '@muya-ui/theme-light';
+
+export const MydesignIcon = React.forwardRef<SVGSVGElement, ISvgProps>((props, ref) => (
+  <SvgIcon ref={ref} viewBox="0 0 1024 1024" {...props}>
+    <path d="M149.333333 384v490.666667h490.666667V384H149.333333z m576-106.666667a21.333333 21.333333 0 0 1 21.333334 21.333334v661.333333a21.333333 21.333333 0 0 1-21.333334 21.333333H64a21.333333 21.333333 0 0 1-21.333333-21.333333V298.666667a21.333333 21.333333 0 0 1 21.333333-21.333334h661.333333zM938.666667 64a21.333333 21.333333 0 0 1 21.333333 21.333333v768H853.333333V170.666667H170.666667V64h768z"   />
+  </SvgIcon>
+));
+
+export default MydesignIcon;
