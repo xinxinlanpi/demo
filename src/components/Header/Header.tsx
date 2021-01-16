@@ -16,6 +16,5 @@ const StyledHeader = styled.div`
 `;
 
 export default function Header () {
-    return <StyledHeader id="workbench-header">
-    </StyledHeader>
+    return <StyledHeader id="workbench-header" />
 }

@@ -9,8 +9,8 @@ export default function Home() {
     return (
        <div className="my-homewok">
            <div className="content-left">some content</div>
-           <div className="content-right">
-                <WorkList rowNumber={5}/>
+           <div className="content-right" id="j_content">
+                <WorkList rowNumber={4} outResize={true}/>
            </div>
        </div>
     );
